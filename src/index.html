@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anderson Lima - Dev</title>
+    <!-- Link com arquivo css externo -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header da página -->
+    <header>
+      <div>
+        <h1 class="titulo">
+          <span class="primeira-letra">A</span>NDERSON LIMA -
+          <span class="primeira-letra">D</span>EV
+        </h1>
+
+        <!-- Menu com os links das seções -->
+        <ul class="menu">
+          <li>
+            <a href="#sobre-mim">Sobre mim</a>
+          </li>
+          <li>
+            <a href="#tecnologias">Tecnologias</a>
+          </li>
+          <li>
+            <a href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Parte principal da página -->
+    <main>
+      <!-- Seção sobre mim -->
+      <section id="sobre-mim">
+        <div class="imagem">
+          <img src="../images/codigo.png" alt="imagem codigo" />
+        </div>
+        <div class="info">
+          <h2>Sobre Mim:</h2>
+          <p>
+            Olá mundo, meu nome é Anderson sou um desenvolvedor freelancer que
+            busca sempre ter seriedade e transparência com meus clientes wm todo
+            trabalho que faço, sou estudante de Engenharia de Software no Centro
+            Universitário Internacional - UNINTER e busco sempre aprender mais e
+            mais para me desenvolver profissionalmente. Se você busca um
+            profissional para desenvolver aplicações como Landing Pages,
+            E-commerces, Blogs, entre outras aplicações web, você venho ao lugar
+            certo!
+          </p>
+        </div>
+      </section>
+
+      <!-- Seção com as tecnologias -->
+      <section id="tecnologias">
+        <h2>Principais Tecnologias que uso:</h2>
+        <article id="principais-tec">
+          <!-- Tecnologias Principais -->
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/html.png" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>Html</h2>
+          </div>
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/css.png" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>Css</h2>
+          </div>
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/javascript.png" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>JavaScript</h2>
+          </div>
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/react.png" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>React</h2>
+          </div>
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/next.jpg" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>Next</h2>
+          </div>
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/nest.png" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>NestJS</h2>
+          </div>
+        </article>
+        <!-- Outras tecnologias -->
+        <article id="outras-tec">
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/java.png" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>Java</h2>
+          </div>
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/mongodb.jpg" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>MongoDB</h2>
+          </div>
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/node.png" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>Node</h2>
+          </div>
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/sqlite.jpg" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>SQLite</h2>
+          </div>
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/python.jpg" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>Python</h2>
+          </div>
+          <div class="tecnologia">
+            <div class="imagem">
+              <img src="../images/prisma.png" alt="Imagem da Tecnologia" />
+            </div>
+            <h2>Prisma</h2>
+          </div>
+        </article>
+        <div class="botao">
+          <!-- Botão que mostra mais tecnologias -->
+          <button class="ver-mais">Ver mais</button>
+        </div>
+      </section>
+      <!-- Seção para entrar em contato -->
+      <section id="contato">
+        <h2>Entre em contato:</h2>
+        <form>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" required="required" name="nome" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="msg">Mensagem</label>
+          <textarea rows="8" id="msg" name="msg"></textarea>
+
+          <input type="submit" class="enviar" value="Enviar" />
+        </form>
+      </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+      <h2>Desenvolvido para fins educacionais <span>&copy;</span> 2025</h2>
+    </footer>
+
+    <!-- Conexão com o arquivo javascript externo -->
+    <script src="script.js"></script>
+  </body>
+</html>
